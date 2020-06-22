@@ -25,6 +25,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  jumpToOtherPage: function () {
+    wx.navigateTo({
+      url: '../navigate/navigate',
+   })
+  },
   awakeMap: function(){
     wx.openLocation({
       latitude: 39.9800386752,

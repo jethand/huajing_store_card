@@ -5,6 +5,19 @@
   align-items: center;
 }
 
+.container {
+  background-color: #F5F5F5;
+}
+.hj-body {
+  background-color: #fff;
+  border-radius: 14px;
+}
+.hj-footer {
+  margin-top: 14px;
+  background-color: #fff;
+  border-radius: 14px;
+  margin-bottom: 16px;
+}
 .userinfo-avatar {
   width: 100rpx;
   height: 100rpx;
@@ -16,11 +29,12 @@
   display: block;
   font-weight: bold;
   margin-bottom: 16rpx;
+  font-size: large;
 }
 .index-header-intro{
   color: #aaa;
   display: block;
-  font-size: 12px;
+  font-size: 14px;
 }
 .usermotto {
   margin-top: 200px;
@@ -28,7 +42,6 @@
 .index-header{
   width: 100%;
   padding-bottom: 22rpx;
-  border-bottom: 1px dashed #dcdfe6;
 }
 .index-header-name{
   padding-left: 20rpx;
@@ -41,7 +54,7 @@
   margin: 26rpx 20rpx;
 }
 .hj-info-item-text{
-  font-size: 12px;
+  font-size: 14px;
   color: #606266;
 }
 .hj-info-item-icon{
@@ -60,4 +73,22 @@
   width: 200rpx;
   height: 200rpx;
   padding: 0 6rpx;
+}
+.hj-link-img {
+  width: 100%;
+  height: 260rpx;
+}
+.hj-link-title {
+  display: block;
+  margin-bottom: 16rpx;
+  font-size: 18px;
+  color: #000;
+  margin-top: 8px;
+}
+.hj-link-sub-title {
+  font-size: 14px;
+  color: #606266;
+}
+.hj-link-img {
+  
 }

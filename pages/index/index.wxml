@@ -45,4 +45,11 @@
           </view>
         </view>
     </view>
+    <view class="hj-footer">
+      <view class="hj-info-item" bindtap="jumpToOtherPage">
+          <image class="hj-link-img" src="../../image/link.jpg" mode="scaleToFill"></image>
+          <text class="hj-link-title">华景——为您而诞生</text>
+          <text class="hj-link-sub-title">我们力求将完美的专业精神融入每一个医疗技术和服务细节，帮助您和家人拥有持久的健康和完美的微笑。</text>
+        </view>
+    </view>
 </view>
